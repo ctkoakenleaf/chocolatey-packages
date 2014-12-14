@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>lammercontextmenu</id>
+    <title>Lammer Context Menu</title>
+    <version>1.0.3.17</version>
+    <authors>weDev4you</authors>
+    <owners>Werner van Deventer</owners>
+    <summary>Right-click one or more files or folders, the desktop or the window background for instant access to very handy context-sensitive features.</summary>
+    <description>Right-click one or more files or folders, the desktop or the window background for instant access to very handy context-sensitive features.</description>
+    <projectUrl>http://www.wedev4you.com/Pages/Products/LammerContextMenu</projectUrl>
+    <tags>contextmenu shell menu explorer</tags>
+    <copyright>weDev4you</copyright>
+    <licenseUrl>http://www.wedev4you.com/Pages/Products/LammerContextMenu</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://www.wedev4you.com/Pages/Products/LammerContextMenu/PackageDefaultIcon.png</iconUrl>
+    <releaseNotes>Fixed a bug introduced by the last wildcard changes.
+Fixed Updater form not being closed after setup starting.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="\**" target="tools" />
+  </files>
+</package>

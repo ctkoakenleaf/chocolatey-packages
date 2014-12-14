@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mediainfo</id>
+    <title>MediaInfo</title>
+    <version>0.7.70</version>
+    <authors>MediaArea.net SARL</authors>
+    <owners>Werner van Deventer</owners>
+    <summary>MediaInfo is a convenient unified display of the most relevant technical and tag data for video and audio files.</summary>
+    <description>MediaInfo is a convenient unified display of the most relevant technical and tag data for video and audio files.</description>
+    <projectUrl>http://mediaarea.net/en/MediaInfo</projectUrl>
+    <tags>media info</tags>
+    <copyright>MediaArea.net SARL</copyright>
+    <licenseUrl>http://en.wikipedia.org/wiki/Open_source</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>http://mediaarea.net/_/img/MediaInfo_90x90.png</iconUrl>
+    <releaseNotes>http://mediaarea.net/MediaInfo/ChangeLog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="\**" target="tools" />
+  </files>
+</package>
