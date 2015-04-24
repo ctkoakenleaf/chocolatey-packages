@@ -1,22 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>mono3</id>
-    <title>Mono</title>
-    <version>3.2.3</version>
-    <authors>Mono Project</authors>
-    <owners>Werner van Deventer</owners>
-    <summary>Mono, the open source development platform based on the .NET framework.</summary>
-    <description>Mono, the open source development platform based on the .NET framework, allows developers to build Linux and cross-platform applications with improved developer productivity. Mono's .NET implementation is based on the ECMA standards for C# and the Common Language Infrastructure.</description>
-    <projectUrl>http://mono-project.com/</projectUrl>
-    <tags>mono mono3 development cross-platform framework</tags>
-    <copyright></copyright>
-    <licenseUrl>http://mono-project.com/FAQ:_Licensing</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/ferventcoder/nugetpackages/raw/master/mono/mono-logo.png</iconUrl>
-    <releaseNotes></releaseNotes>
+    <title>[DEPRECATED] Mono</title>
+    <version>3.2.3.20150323</version>
+    <authors>Miguel de Icaza</authors>
+    <owners>dtgm</owners>
+    <summary>Mono, the open source development platform based on the .NET framework</summary>
+    <description>
+- - -
+This package has been deprecated in favor of __[mono](https://chocolatey.org/packages/mono)__ package because of Chocolatey naming conventions.  
+
+It is recommended that you uninstall this package before installing the new package: `cuninst mono3 &amp;&amp; cinst mono`
+
+If you have both packages installed, you may safely remove the mono3 chocolatey package by deleting the following directories: `%ChocolateyInstall%\lib\mono3.*`
+- - -
+    </description>
+    <projectUrl>https://chocolatey.org/packages/mono/</projectUrl>
+    <tags>deprecated</tags>
+    <dependencies>
+      <dependency id="mono" version="[3.0,4.0)" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="\**" target="tools" />
-  </files>
 </package>
