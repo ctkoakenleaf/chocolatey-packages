@@ -3,7 +3,7 @@
   <metadata>
     <id>xplorer2pro</id>
     <title>xplorer² Pro</title>
-    <version>2.5.0.2</version>
+    <version>3.0.0.4</version>
     <authors>Zabkat</authors>
     <owners>Werner van Deventer</owners>
     <summary>xplorer² is a desktop file manager combining the simplicity of windows explorer with the speed and efficiency of traditional dual pane orthodox file managers, helping you be productive with your documents, pictures, music, source code and other files.</summary>
@@ -14,24 +14,8 @@
     <licenseUrl>http://zabkat.com/x2lic.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>http://zabkat.com/img/x2icon.gif</iconUrl>
-    <releaseNotes>* registry setting GAOPT_NOBROWSECPAN (=524288) controlling whether xplorer² browses into control panel items or not. For windows vista and later these "folders" are better handled by windows explorer
-* Edit &gt; Copy names command works in the folder tree too. This in addition to CTRL+P command that copies all the active tree branch to the clipboard.
-* [P] docking panes have context menu (right click on titlebar) for various operations (dock/float/hide etc)
-* custom drive icons are read from AUTORUN.INF files (if present for removable drives)
-* corrected PDF text extraction for windows 8.1
-* repaired removable media EJECT command from shell context menu 
-* picture thumbnails extracted from phones and cameras (thumbnail view and draft QV tab)
-* [U] running the professional version in parallel to ultimate doesn't disable fast desktop search
-* various small bugs fixed
-* [P] robust copy correctly handles file symbolic links (copies the link not the file). Sadly like all symlink operations you must be running as full administrator otherwise you get a funny error message.
-* [P] registry setting nUnbufferedCopyMB (default=1GB) sets a size limit above which robust copy is done without buffering. That supposedly fixes problems where your RAM is clogged by extremely huge file copying.
-* [P] When robust delete dialog encounters some reparse point (e.g. folder junction or symbolic link) only deletes the reparse information, without touching the target folder. This makes the "confirm folder junctions" checkbox in the dialog rather irrelevant.
-* More consistent handling of symbolic links, now you can see previews of them (text or pics) and even search for text in them (in the actual file target)
-* New files inserted in a pane (e.g. pasted or dropped) are marked (selected). This lets you see which files were newly added. This feature is controlled by local registry setting variable nMarkNewFileMS which is the time (in milliseconds) xplorer² waits after a file operation is initiated to mark added files. Set this to 0 to disable this new marking feature. If a pane contains a prior selection (>=2 selected items) then this feature is suppressed.
-* [U] Global registry value szSystemPropsList is a comma separated list of system properties to extend the file column and search attribute system. See here for the list of available properties: http://msdn.microsoft.com/en-us/library/dd561977(v=vs.85).aspx . Some of them are already available as shell folder columns but some are only available through this route. Requires windows VISTA or later.
-* in explorer replacement mode, "Open containing folder" menu command from 3rd party programs (e.g. Google Chrome, Firefox) will correctly open and select items in xplorer². This is by far the most time consuming (wasted?) feature added in xplorer² in terms of development resources, enjoy!
-* When you opt to replace windows explorer with xplorer² during installation, you get more folder types handled (including "virtuals" like MyComputer). Installer allows you to replace explorer for the current user or for all users with a tickbox. xplorer² is configured to automatically run when you boot up windows (silently).
-* In the rare occasions when xplorer² cannot read a special folder (e.g. some items in control panel), you get the option to read it with windows explorer instead.</releaseNotes>
+    <releaseNotes>* corrected some dialog glitches in high DPI screen resolution
+* better colaboration with new compressed folder NSE plugin (see http://zabkat.com/blog/compressed-folder-shell-extension.htm)</releaseNotes>
   </metadata>
   <files>
     <file src="\**" target="tools" />

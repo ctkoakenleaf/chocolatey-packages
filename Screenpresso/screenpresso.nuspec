@@ -3,7 +3,7 @@
   <metadata>
     <id>screenpresso</id>
     <title>Screenpresso</title>
-    <version>1.5.4</version>
+    <version>1.5.5</version>
     <authors>LEARNPULSE SAS</authors>
     <owners>Werner van Deventer</owners>
     <summary>Light-weight Windows screen grab tool with built-in image editor, user guide generator and sharing options.</summary>
@@ -14,11 +14,7 @@
     <licenseUrl>http://www.screenpresso.com/aboutus</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://pbs.twimg.com/profile_images/438412324311797760/Z7CV5GhS.png</iconUrl>
-    <releaseNotes>Create awesome animated GIF in few seconds
-Extract the text of your screenshots!
-Copy part of a screenshot
-Capture images and videos of your Android devices!
-Optimize images to reduce the file size</releaseNotes>
+    <releaseNotes>Screenpresso 1.5.5 is a maintenance release fixing some installation issues on fresh install.</releaseNotes>
   </metadata>
   <files>
     <file src="\**" target="tools" />
