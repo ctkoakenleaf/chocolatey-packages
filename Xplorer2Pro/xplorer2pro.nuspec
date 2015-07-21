@@ -3,7 +3,7 @@
   <metadata>
     <id>xplorer2pro</id>
     <title>xplorer² Pro</title>
-    <version>3.0.0.4</version>
+    <version>3.0.0.5</version>
     <authors>Zabkat</authors>
     <owners>Werner van Deventer</owners>
     <summary>xplorer² is a desktop file manager combining the simplicity of windows explorer with the speed and efficiency of traditional dual pane orthodox file managers, helping you be productive with your documents, pictures, music, source code and other files.</summary>
@@ -14,8 +14,7 @@
     <licenseUrl>http://zabkat.com/x2lic.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>http://zabkat.com/img/x2icon.gif</iconUrl>
-    <releaseNotes>* corrected some dialog glitches in high DPI screen resolution
-* better colaboration with new compressed folder NSE plugin (see http://zabkat.com/blog/compressed-folder-shell-extension.htm)</releaseNotes>
+    <releaseNotes>* In explorer replacement mode, xplorer² won't "steal" folders from windows explorer, if you happen to browse within windows explorer to begin with.</releaseNotes>
   </metadata>
   <files>
     <file src="\**" target="tools" />

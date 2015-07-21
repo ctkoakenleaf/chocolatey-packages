@@ -3,7 +3,7 @@
   <metadata>
     <id>screenpresso</id>
     <title>Screenpresso</title>
-    <version>1.5.5</version>
+    <version>1.5.6</version>
     <authors>LEARNPULSE SAS</authors>
     <owners>Werner van Deventer</owners>
     <summary>Light-weight Windows screen grab tool with built-in image editor, user guide generator and sharing options.</summary>
@@ -14,7 +14,11 @@
     <licenseUrl>http://www.screenpresso.com/aboutus</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://pbs.twimg.com/profile_images/438412324311797760/Z7CV5GhS.png</iconUrl>
-    <releaseNotes>Screenpresso 1.5.5 is a maintenance release fixing some installation issues on fresh install.</releaseNotes>
+    <releaseNotes>Workspace files synchronization with Dropbox and Google Drive for collaborative work
+Editor: new free hand drawing tool
+New hotkey to use the copy text / OCR
+Captured text can be translated to a specific language
+QRCode reader integrated</releaseNotes>
   </metadata>
   <files>
     <file src="\**" target="tools" />
