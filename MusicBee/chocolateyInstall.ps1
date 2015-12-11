@@ -1,6 +1,6 @@
 ﻿$packageName = "musicbee"
-$zipFile = "MusicBeeSetup_2_4.zip"
-$exeFile = "MusicBeeSetup_2_4.exe"
+$zipFile = "MusicBeeSetup_2_5_update1.zip"
+$exeFile = "MusicBeeSetup_2_5.exe"
 $url = "http://musicbee.niblseed.com/$zipFile"
 $url64 = $url
 $silentArgs = "/S"
