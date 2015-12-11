@@ -1,7 +1,7 @@
 ﻿
 $packageName = 'screenpresso'
 $installerType = 'msi'
-$url = 'http://www.screenpresso.com/binaries/ScreenpressoSetup.msi'
+$url = 'http://cdn.screenpresso.com/binaries/ScreenpressoSetup.msi'
 $url64 = $url
 $silentArgs = '/qb'
 $validExitCodes = @(0)

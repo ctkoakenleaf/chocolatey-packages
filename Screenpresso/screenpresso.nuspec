@@ -3,7 +3,7 @@
   <metadata>
     <id>screenpresso</id>
     <title>Screenpresso</title>
-    <version>1.6.0</version>
+    <version>1.6.1</version>
     <authors>LEARNPULSE SAS</authors>
     <owners>Werner van Deventer</owners>
     <summary>Light-weight Windows screen grab tool with built-in image editor, user guide generator and sharing options.</summary>
@@ -14,16 +14,10 @@
     <licenseUrl>http://www.screenpresso.com/aboutus</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://pbs.twimg.com/profile_images/438412324311797760/Z7CV5GhS.png</iconUrl>
-    <releaseNotes>Windows 10 fully compatible
-Video capture: system sound can now be recorded in screencast
-Video clipping: you can now modify the start and end time
-New quick capture window always visible on your desktop
-2 way synchronizations with Microsoft OneDrive and Google drive
-Editor enhancement: new polygon drawing tools, most of the drawing items can now be rotated
-Screenpresso hot keys now work within applications with administrator privileges
-Video capture: watermark your videos
-New colork picker
-Even more new features</releaseNotes>
+    <releaseNotes>Screenpresso is now full 64 bits
+New workflow to capture whole screen
+Systray icon now blinks with different colors during video recording
+Reworked Imgur sharing to support new v3 API</releaseNotes>
   </metadata>
   <files>
     <file src="\**" target="tools" />
