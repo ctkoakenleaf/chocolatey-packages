@@ -1,8 +1,12 @@
-﻿$packageName = "musicbee"
-$zipFile = "MusicBeeSetup_2_5_update1.zip"
-$exeFile = "MusicBeeSetup_2_5.exe"
+﻿$ErrorActionPreference = 'Stop';
+$packageName = "musicbee"
+$version = '3.0.5995'
+$zipFile = "MusicBeeSetup_3_0_Update1.zip"
+$exeFile = "MusicBeeSetup_3_0_Update1.exe"
 $url = "http://musicbee.niblseed.com/$zipFile"
 $url64 = $url
+$checksum = 'EECD7BB9E6C09AFFEC31B8150B21FD98'
+$checksumType  = 'md5'
 $silentArgs = "/S"
 $validExitCodes = @(0)
 
@@ -17,9 +21,8 @@ try {
 
   $file = Join-Path $tempDir $exeFile
 
-  Install-ChocolateyInstallPackage $packageName 'exe' $silentArgs $file -validExitCodes $validExitCodes
+  Install-ChocolateyInstallPackage $packageName 'exe' $silentArgs $file -validExitCodes $validExitCodes -Checksum "$checksum" -ChecksumType "$checksumType"
 
-  Write-ChocolateySuccess "$packageName"
 } catch {
   Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
   throw
