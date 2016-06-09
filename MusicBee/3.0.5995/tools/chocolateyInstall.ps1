@@ -4,7 +4,6 @@ $version = '3.0.5995'
 $zipFile = "MusicBeeSetup_3_0_Update1.zip"
 $exeFile = "MusicBeeSetup_3_0_Update1.exe"
 $url = "http://musicbee.niblseed.com/$zipFile"
-$url64 = $url
 $checksum = 'EECD7BB9E6C09AFFEC31B8150B21FD98'
 $checksumType  = 'md5'
 $silentArgs = "/S"
@@ -16,7 +15,7 @@ try {
   if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
   $file = Join-Path $tempDir $zipFile
           
-  Get-ChocolateyWebFile $packageName $file $url $url64
+  Get-ChocolateyWebFile $packageName $file $url
   Get-ChocolateyUnzip $file $tempDir "" $packageName
 
   $file = Join-Path $tempDir $exeFile

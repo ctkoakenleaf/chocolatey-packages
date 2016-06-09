@@ -16,6 +16,9 @@
     <licenseUrl>http://musicbee.wikia.com/wiki/FAQ</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://upload.wikimedia.org/wikipedia/en/c/cf/MusicBee_Logo.png</iconUrl>
+	<dependencies>
+        <dependency id="autohotkey.portable" />
+	</dependencies>
 	<bugTrackerUrl>http://getmusicbee.com/forum/index.php?board=3.0</bugTrackerUrl>
 	<docsUrl>http://musicbee.wikia.com/wiki/MusicBee_Wiki</docsUrl>
 	<packageSourceUrl>https://github.com/brutaldev/chocolatey-packages/tree/master/MusicBee</packageSourceUrl>
@@ -25,7 +28,4 @@
 
 * For details see: [MusicBee 3 Latest Patch](http://getmusicbee.com/forum/index.php?topic=18462.0)</releaseNotes>
   </metadata>
-  <files>
-    <file src="\**" target="tools" />
-  </files>
 </package>
