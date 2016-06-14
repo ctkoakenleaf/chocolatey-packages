@@ -5,13 +5,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 WinWait, MusicBee 3.0 Uninstall ahk_class #32770, , 60
 BlockInput On
-WinActivate
-Send {Tab}
-Send {Enter}
+ControlClick, Button1, MusicBee 3.0 Uninstall
 BlockInput Off
 
 WinWait, MusicBee 3.0 Uninstall ahk_class #32770, , 60
 BlockInput On
-WinActivate
-Send {Enter}
+ControlClick, OK, MusicBee 3.0 Uninstall
 BlockInput Off
