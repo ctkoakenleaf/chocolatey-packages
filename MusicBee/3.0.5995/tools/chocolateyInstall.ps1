@@ -23,6 +23,5 @@ try {
   Install-ChocolateyInstallPackage $packageName 'exe' $silentArgs $file -validExitCodes $validExitCodes -Checksum "$checksum" -ChecksumType "$checksumType"
 
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
   throw
 }
