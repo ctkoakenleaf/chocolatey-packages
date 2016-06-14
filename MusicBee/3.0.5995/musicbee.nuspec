@@ -8,14 +8,18 @@
     <owners>Werner van Deventer, angga</owners>
     <summary>MusicBee makes it easy to organize, find and play music files on your computer, on portable devices and on the web.</summary>
     <description>If you are looking for an application geared toward managing extensive music collections, easy to use and with a comprehensive feature set - MusicBee is that application.
-	
-	MusicBee makes it easy to organize, find and play music files on your computer, on portable devices and on the web.</description>
+
+MusicBee makes it easy to organize, find and play music files on your computer, on portable devices and on the web.
+
+####Screenshot
+![MusicBee Screenshot](https://raw.githubusercontent.com/anggaaja/chocolatey/master/musicbee/assets/musicbeescreenshot.png)
+</description>
     <projectUrl>http://getmusicbee.com/</projectUrl>
     <tags>admin musicbee audio music player media mp3 tagger</tags>
     <copyright>Copyright © Steven Mayall</copyright>
     <licenseUrl>http://musicbee.wikia.com/wiki/FAQ</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://upload.wikimedia.org/wikipedia/en/c/cf/MusicBee_Logo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/anggaaja/chocolatey/master/musicbee/assets/musicbeelogo.png</iconUrl>
 	<dependencies>
         <dependency id="autohotkey.portable" />
 	</dependencies>
