@@ -1,9 +1,12 @@
 ﻿
-$packageName = 'screenpresso'
-$installerType = 'msi'
-$url = 'http://cdn.screenpresso.com/binaries/ScreenpressoSetup.msi'
-$url64 = $url
-$silentArgs = '/qb'
-$validExitCodes = @(0)
+$packageArgs = @{
+  packageName    = 'screenpresso'
+  fileType       = 'exe'
+  url            = 'https://www.screenpresso.com/binaries/Screenpresso.exe'
+  url64bit       = 'https://www.screenpresso.com/binaries/Screenpresso.exe'
+  silentArgs     = '-install pf -silent'
+  validExitCodes = @(0)
+  softwareName   = 'Screenpresso'
+}
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64"  -validExitCodes $validExitCodes
+Install-ChocolateyPackage @packageArgs
