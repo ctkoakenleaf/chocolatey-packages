@@ -1,4 +1,6 @@
-  
+﻿
+$ErrorActionPreference = 'Stop';
+
 $packageArgs = @{
   packageName    = 'screenpresso'
   fileType       = 'exe'
