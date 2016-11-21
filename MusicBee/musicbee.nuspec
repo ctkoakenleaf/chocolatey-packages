@@ -3,7 +3,7 @@
   <metadata>
     <id>musicbee</id>
     <title>MusicBee (Install)</title>
-    <version>3.0.6067</version>
+    <version>3.0.6132</version>
     <authors>Steven Mayall</authors>
     <owners>Werner van Deventer, angga</owners>
     <summary>MusicBee makes it easy to organize, find and play music files on your computer, on portable devices and on the web.</summary>
@@ -26,9 +26,27 @@ MusicBee makes it easy to organize, find and play music files on your computer, 
     <bugTrackerUrl>http://getmusicbee.com/forum/index.php?board=3.0</bugTrackerUrl>
     <docsUrl>http://musicbee.wikia.com/wiki/MusicBee_Wiki</docsUrl>
     <packageSourceUrl>https://github.com/brutaldev/chocolatey-packages/tree/master/MusicBee</packageSourceUrl>
-    <releaseNotes>####3.0.6067
-* Various bug fixes and some UI improvements
-* For details see: [MusicBee 3 Latest Patch](http://getmusicbee.com/forum/index.php?topic=18462.0)</releaseNotes>
+    <releaseNotes>####3.0.6132s
+* fix for artist biographies
+* fix artist picture in the Now Playing panel and the Compact Player which can stay switched to a blurred album cover
+* fix MB freezing in certain circumstances when moving files to an organised folder
+* enable sorting on the soundcloud search panel and fix the "likes" count column
+* fix the device synchronisation to respect the file converter encoder thread count and priority settings (was effectively always using 2 threads)
+* add support for mod files (mo3/it/ xm/s3m/ mtm/ mod/ umx)
+* add support for chiptunes files - you will also need the basszxtune.dll plugin: see http://getmusicbee.com/forum/index.php?topic=19397.msg116779#msg116779
+* change the Music Explorer panel to show album year instead of album artist
+* fix CD ripper not saving artwork where the artwork is not embeded
+* drag/ drop files from windows explorer into the now playing list doesnt also import linked file artwork
+* fix music explorer filter panel handling for files with multiple values in a tag
+* fix file rescan aborting when encountering a long filename (>260 chars)
+* support for dockable plugin panels
+* change to the way Locate in Windows Explorer is implemented
+* fix breaking change for the soundcloud search results
+* change the behavior of the Panel Layout button. It now shows a menu for quick layout changes, including the Hide Panel Header function and Arrange Panels dialog
+* thumbnail browser can now be configured to show text only with no thumbnails
+* Music Explorer filter panel can now be configured to show pictures (like the thumbnail browser)
+* various bug fixes
+* see: http://getmusicbee.com/forum/index.php?topic=18462.0 for details</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
