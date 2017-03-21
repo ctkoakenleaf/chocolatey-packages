@@ -3,7 +3,7 @@
   <metadata>
     <id>musicbee</id>
     <title>MusicBee (Install)</title>
-    <version>3.0.6132</version>
+    <version>3.0.6276</version>
     <authors>Steven Mayall</authors>
     <owners>Werner van Deventer, angga</owners>
     <summary>MusicBee makes it easy to organize, find and play music files on your computer, on portable devices and on the web.</summary>
@@ -26,27 +26,22 @@ MusicBee makes it easy to organize, find and play music files on your computer, 
     <bugTrackerUrl>http://getmusicbee.com/forum/index.php?board=3.0</bugTrackerUrl>
     <docsUrl>http://musicbee.wikia.com/wiki/MusicBee_Wiki</docsUrl>
     <packageSourceUrl>https://github.com/brutaldev/chocolatey-packages/tree/master/MusicBee</packageSourceUrl>
-    <releaseNotes>####3.0.6132s
-* fix for artist biographies
-* fix artist picture in the Now Playing panel and the Compact Player which can stay switched to a blurred album cover
-* fix MB freezing in certain circumstances when moving files to an organised folder
-* enable sorting on the soundcloud search panel and fix the "likes" count column
-* fix the device synchronisation to respect the file converter encoder thread count and priority settings (was effectively always using 2 threads)
-* add support for mod files (mo3/it/ xm/s3m/ mtm/ mod/ umx)
-* add support for chiptunes files - you will also need the basszxtune.dll plugin: see http://getmusicbee.com/forum/index.php?topic=19397.msg116779#msg116779
-* change the Music Explorer panel to show album year instead of album artist
-* fix CD ripper not saving artwork where the artwork is not embeded
-* drag/ drop files from windows explorer into the now playing list doesnt also import linked file artwork
-* fix music explorer filter panel handling for files with multiple values in a tag
-* fix file rescan aborting when encountering a long filename (>260 chars)
-* support for dockable plugin panels
-* change to the way Locate in Windows Explorer is implemented
-* fix breaking change for the soundcloud search results
-* change the behavior of the Panel Layout button. It now shows a menu for quick layout changes, including the Hide Panel Header function and Arrange Panels dialog
-* thumbnail browser can now be configured to show text only with no thumbnails
-* Music Explorer filter panel can now be configured to show pictures (like the thumbnail browser)
-* various bug fixes
-* see: http://getmusicbee.com/forum/index.php?topic=18462.0 for details</releaseNotes>
+    <releaseNotes>####3.0.6276
+* upgrade the xbox music plugin to use the new groove api (note the old xbox plugin api will cease working after March 2017)
+* fix wavebar seek when outputting to a UPNP device
+* add back in support for localised artist biographies
+* fix rename a podcast episode when renamed from the tag editor
+* fix autosweep not applying the autosweep naming template if the library is auto-organised with no naming rule for the target drive
+* fix music explorer not retrieving all matching files when filtering by Genre
+* fix synching virtual files (single file split by cuesheet) when no format conversion is done
+* when locking with full screen enabled/ unlocking MusicBee (from the view menu), the window should now size correctly on win10
+* fix tag changes not being saved to file when you edit the tags of a playing track and then you rate the track while still playing
+* when moving files to a new folder, the file permissions are now inherited from new parent folder
+* fix high dpi scaling for the custom tags dialog
+* include "always on top" option in the compact player header menu
+* fix group by bug when the artwork panel is configured to show the selected tracks on the bottom of the main panel
+* tweaked caching of artwork for the Album and Tracks view
+* improved handling for multi-line podcast episode descriptions</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
