@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>mediainfo</id>
-    <version>0.7.96</version>
+    <version>0.7.97</version>
     <title>MediaInfo</title>
     <authors>Jérôme Martinez</authors>
     <owners>Werner van Deventer, dtgm</owners>
@@ -51,7 +51,7 @@
     <copyright>© 2002 MediaArea.net SARL</copyright>
     <tags>media info tag metadata file-formats file-analysis admin</tags>
     <projectSourceUrl>http://sourceforge.net/p/mediainfo/code/HEAD/tree/</projectSourceUrl>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/mediainfo/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/brutaldev/chocolatey-packages/tree/master/MediaInfo/</packageSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/mediainfo/bugs/</bugTrackerUrl>
   </metadata>
 </package>
