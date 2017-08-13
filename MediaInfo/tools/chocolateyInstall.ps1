@@ -1,8 +1,8 @@
 ﻿$packageName = 'mediainfo'
 $installerType = 'exe'
 $silentArgs = '/S'
-$url = 'https://mediaarea.net/download/binary/mediainfo-gui/0.7.97/MediaInfo_GUI_0.7.97_Windows.exe'
-$checksum = '85ffc6ecbeee8ea213d23e9e88826797'
+$url = 'https://mediaarea.net/download/current/MediaInfo_GUI_0.7.98_Windows.exe'
+$checksum = '78f74dabb07c9c96f17ff342c193e152'
 $checksumType = 'md5'
 $validExitCodes = @(0)
 

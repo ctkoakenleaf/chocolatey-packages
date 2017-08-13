@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>mediainfo</id>
-    <version>0.7.97</version>
+    <version>0.7.98</version>
     <title>MediaInfo</title>
     <authors>Jérôme Martinez</authors>
     <owners>Werner van Deventer, dtgm</owners>
