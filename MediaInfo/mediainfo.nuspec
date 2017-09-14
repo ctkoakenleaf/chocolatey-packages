@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>mediainfo</id>
-    <version>0.7.99</version>
+    <version>{{PackageVersion}}</version>
     <title>MediaInfo</title>
     <authors>Jérôme Martinez</authors>
     <owners>Werner van Deventer, dtgm</owners>
@@ -47,7 +47,7 @@
 * [Changelog](http://mediaarea.net/MediaInfo/ChangeLog)
 
 #### Package
-* Manually built and uploaded by Werner van Deventer</releaseNotes>
+**Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly.</releaseNotes>
     <copyright>© 2002 MediaArea.net SARL</copyright>
     <tags>media info tag metadata file-formats file-analysis admin</tags>
     <projectSourceUrl>http://sourceforge.net/p/mediainfo/code/HEAD/tree/</projectSourceUrl>
