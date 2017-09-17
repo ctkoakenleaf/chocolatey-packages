@@ -3,7 +3,7 @@
   <metadata>
     <id>musicbee</id>
     <title>MusicBee (Install)</title>
-    <version>3.0.6335</version>
+    <version>3.1.6466</version>
     <authors>Steven Mayall</authors>
     <owners>Werner van Deventer, angga</owners>
     <summary>MusicBee makes it easy to organize, find and play music files on your computer, on portable devices and on the web.</summary>
@@ -23,12 +23,10 @@ MusicBee makes it easy to organize, find and play music files on your computer, 
     <dependencies>
       <dependency id="autohotkey.portable" version="1.1" />
     </dependencies>
-    <bugTrackerUrl>http://getmusicbee.com/forum/index.php?board=3.0</bugTrackerUrl>
+    <bugTrackerUrl>http://getmusicbee.com/forum/index.php?board=3.1</bugTrackerUrl>
     <docsUrl>http://musicbee.wikia.com/wiki/MusicBee_Wiki</docsUrl>
     <packageSourceUrl>https://github.com/brutaldev/chocolatey-packages/tree/master/MusicBee</packageSourceUrl>
-    <releaseNotes>####3.0.6335
-* when saving a single file, library auto-organise enabled, although the file was being auto-organised, if you try to edit the file straight away, the file in the main panel was still referencing the old file location
-* various bug fixes</releaseNotes>
+    <releaseNotes>https://getmusicbee.com/forum/index.php?topic=21135.0</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

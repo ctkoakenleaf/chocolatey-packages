@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop";
 $packageName = "musicbee"
-$softwareName = "MusicBee 3.0"
+$softwareName = "MusicBee 3.1"
 $installerType = "EXE" 
 $silentArgs = "/S"
 $validExitCodes = @(0)

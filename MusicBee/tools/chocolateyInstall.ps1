@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = "Stop";
 $packageName = "musicbee"
-$zipFile = "MusicBeeSetup_3_0_Update5.zip"
-$exeFile = "MusicBeeSetup_3_0_Update5.exe"
+$zipFile = "MusicBeeSetup_3_1.zip"
+$exeFile = "MusicBeeSetup_3_1.exe"
 $url = "http://musicbee.niblseed.com/$zipFile"
-$checksum = "7085C153787AC3E6688491997936107F"
+$checksum = "f3aead463576c697d08946574535f1cc"
 $checksumType  = "md5"
 $silentArgs = "/S"
 $validExitCodes = @(0)
