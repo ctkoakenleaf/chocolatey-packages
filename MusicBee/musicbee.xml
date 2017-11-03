@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="404648f2-2150-40f8-a49b-0fd2efe4b1de">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f801f3c8-0607-4976-b81a-29e32357a05e">
     <WebsiteUrl />
     <UserAgent>chocolatey command line</UserAgent>
     <UserNotes />
-    <LastFileSize>6395752</LastFileSize>
-    <LastFileDate>2017-09-14T23:11:16.1883879</LastFileDate>
+    <LastFileSize>13773921</LastFileSize>
+    <LastFileDate>2017-10-30T22:51:44+02:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -27,9 +27,24 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>v(\d+\.\d+\.?\d?)</Regex>
-            <Url>https://mediaarea.net/en/MediaInfo/Download/Windows</Url>
+            <Regex>Version (\d+\.\d+\.\d+)</Regex>
+            <Url>https://www.getmusicbee.com/downloads/</Url>
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>href="(http://musicbee.niblseed.com/MusicBeeSetup.*\.zip)".*Mirror 1</Regex>
+            <Url>https://www.getmusicbee.com/downloads/</Url>
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -44,9 +59,9 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2017-09-14T22:40:51.5021386</LastUpdated>
+    <LastUpdated>2017-11-03T18:51:03.9098899+02:00</LastUpdated>
     <TargetPath></TargetPath>
-    <FixedDownloadUrl>https://mediaarea.net/download/binary/mediainfo-gui/{version}/MediaInfo_GUI_{version}_Windows.exe</FixedDownloadUrl>
-    <Name>mediainfo</Name>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>musicbee</Name>
   </ApplicationJob>
 </Jobs>

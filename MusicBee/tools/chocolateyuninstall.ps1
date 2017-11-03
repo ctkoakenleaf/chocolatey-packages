@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop";
 $packageName = "musicbee"
 $softwareName = "MusicBee 3.1"
-$installerType = "EXE" 
+$installerType = "exe" 
 $silentArgs = "/S"
 $validExitCodes = @(0)
 $uninstalled = $false
@@ -26,8 +26,8 @@ $ahkProc = Start-Process -FilePath "AutoHotKey" `
 Write-Debug "$ahkRun start time:`t$($ahkProc.StartTime.ToShortTimeString())"
 Write-Debug "$ahkRun process ID:`t$($ahkProc.Id)"
 
-  Uninstall-ChocolateyPackage -PackageName $packageName `
-                              -FileType $installerType `
+  Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                              -FileType "$installerType" `
                               -SilentArgs "$silentArgs" `
                               -ValidExitCodes $validExitCodes `
                               -File "$setupExePath"

@@ -1,9 +1,9 @@
-﻿$packageName = 'mediainfo'
-$installerType = 'exe'
-$silentArgs = '/S'
-$url = '{{DownloadUrl}}'
-$checksum = '{{Checksum}}'
-$checksumType = 'sha256'
+﻿$packageName = "mediainfo"
+$installerType = "exe"
+$silentArgs = "/S"
+$url = "{{DownloadUrl}}"
+$checksum = "{{Checksum}}"
+$checksumType = "sha256"
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `

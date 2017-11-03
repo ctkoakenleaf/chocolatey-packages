@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>musicbee</id>
+    <id>musicbee</id>    
+    <version>{{PackageVersion}}</version>
     <title>MusicBee (Install)</title>
-    <version>3.1.6466</version>
     <authors>Steven Mayall</authors>
     <owners>Werner van Deventer, angga</owners>
     <summary>MusicBee makes it easy to organize, find and play music files on your computer, on portable devices and on the web.</summary>
@@ -26,7 +26,11 @@ MusicBee makes it easy to organize, find and play music files on your computer, 
     <bugTrackerUrl>http://getmusicbee.com/forum/index.php?board=3.1</bugTrackerUrl>
     <docsUrl>http://musicbee.wikia.com/wiki/MusicBee_Wiki</docsUrl>
     <packageSourceUrl>https://github.com/brutaldev/chocolatey-packages/tree/master/MusicBee</packageSourceUrl>
-    <releaseNotes>https://getmusicbee.com/forum/index.php?topic=21135.0</releaseNotes>
+    <releaseNotes>#### Program
+* [Changelog](https://www.getmusicbee.com/help/release-note/)
+
+#### Package
+**Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
