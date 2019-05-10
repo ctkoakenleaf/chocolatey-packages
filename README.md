@@ -1,5 +1,5 @@
 ## Chocolatey Packages
-__cloned from [brutaldev](https://github.com/brutaldev) [https://github.com/brutaldev/chocolatey-packages](https://github.com/brutaldev/chocolatey-packages)
+__cloned__ from [brutaldev](https://github.com/brutaldev) ([https://github.com/brutaldev/chocolatey-packages](https://github.com/brutaldev/chocolatey-packages))
 ---
 
 ### MuiscBee (Portable)
